@@ -136,3 +136,8 @@ AbstractController::ActionNotFound (The action 'hello_world' could not be found 
 
 
   Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.5ms)
+
+
+Started GET "/hello_world" for 73.218.182.62 at 2019-01-07 17:22:33 +0000
+Processing by StaticController#hello_world as HTML
+  Rendered static/hello_world.html.erb within layouts/application (0.4ms)
