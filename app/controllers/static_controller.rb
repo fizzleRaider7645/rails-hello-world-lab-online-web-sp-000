@@ -1,2 +1,2 @@
-StaticController
+class StaticController
 end
